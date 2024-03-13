@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projet bonbon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/stage1.css">
+
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <div class="container">
+
+      <h1><a href="index.html">Noah Gadjadhar</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logopng" alt="" class="img-fluid"></a> -->
+      
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="index.html">Accueil</a></li>
+          <li><a class="nav-link" href="index.html#about">A propos</a></li>
+          <li><a class="nav-link" href="index.html#resume">Resumé</a></li>
+          <li><a class="nav-link" href="index.html#services">Projets</a></li>
+          <li><a class="nav-link" href="index.html#portfolio">Veille technologique</a></li>
+          <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+     
+    </div>
+  
+<!-- Header -->
+
+
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+  
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <h1 class="w3-xxlarge" style="color: white">Application logicielle Sicilylines</h1>
+      <img src="assets/img/portfolio/sicilylines.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="2000"  style="margin-top: 10%; height: 350px;">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center" style="color: white">Présentation</h1><br>
+      <h5 class="w3-center">realisé en cours de l'année 2022.</h5>
+      <p class="w3-large" style="margin-top: 15%;"> 
+        <strong>
+        L'application logicielle Sicilylines a été réalisé avec l'utilisation de l'éditeur de code Visual studio 2022. <br> Le projet a été réalisé en language C# et des requête SQL car nous avons eu besoin de creer une base de données sur MySQL à l'aide des ressources fournit par les professeurs.</p>
+      </strong>
+      <p class="w3-large"> 
+        <strong>
+        L'application Sicilylines à été réalisé en groupe. Le code permet d'ajouter, de supprimer et de modifier une liaison d'un port a un autres. Lorqu'une des 3 fonctions est utilisé, la base de données le prend en compte et ajoute, supprime ou modifie une liaison automatiquement.</p>
+      </strong>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center" style="color: white">Les fonctions de l'application Sicilylines</h1><br>
+      <h4>L'ajout</h4>
+    <p>la liaison du port de départ et du port d'arrivé est directement ajouté à la base de données </p>
+ <br>
+    
+      <h4>La suppression</h4>
+        <p>La suppression s'effectue directement à la ligne sélectionné dans la base de données et supprimer les liaisons existantes</p>
+  <br>
+    
+      <h4>La modification</h4>
+      <p class="w3-text-grey"></p>La modification permet de modifier l'heure d'une liaison<br>
+      
+      
+      <p style="color: white; margin-top: 30%;">La table liaison indique plusieurs champs tel que : <strong > <br>
+
+          <br> - La durée de la traversée <br>- Le port de départ <br>- Le port d'arrivé<br>- L'ID du secteur affecté</p>
+        </strong>
+        <p style="margin-top: 20%;">Le nom des port d'arrive et des seteurs est récuperer dans leur tables respectives</p>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+        <center>
+            
+            <H1 style="color: white">Base de donnée</H1>
+        </center>
+        <img src="assets/img/portfolio/bdd.jpg.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:500px; height: 400px;">
+        <H1 style="color: white; margin-top: 20%;">Table liaison</H1>
+        <img src="assets/img/portfolio/Liaison.jpg.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:500px; height: 400px;">    
+    </div>
+  </div>
+
+  <hr>
+
+ 
+</div>
+
+<!-- Footer -->
+
+
+</body>
+</html>
