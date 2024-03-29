@@ -543,6 +543,8 @@ section .container {
   background: rgba(255, 255, 255, 0.12);
 }
 
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -817,6 +819,10 @@ button:hover {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+.portfolio-item {
+  height: 300px; /* Définissez la hauteur souhaitée pour chaque élément */
+}
+
 
 .portfolio #portfolio-flters {
   padding: 0;
