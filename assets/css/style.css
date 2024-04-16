@@ -63,9 +63,12 @@ h6 {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: flex-end; 
   z-index: 997;
   overflow-y: auto;
 }
+
+
 
 #header * {
   transition: ease-in-out 0.3s;
@@ -169,7 +172,7 @@ h6 {
 }
 
 #header.header-top .container {
-  display: flex;
+ 
   align-items: center;
 }
 
@@ -187,6 +190,7 @@ h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -196,10 +200,13 @@ h6 {
 .navbar {
   padding: 0;
   margin-top: 35px;
+  position: relative;
+  background-color: transparent; /* Assurez-vous que la couleur de fond est transparente */
 }
 
 .navbar ul {
   margin: 0;
+  position: relative;
   padding: 0;
   display: flex;
   list-style: none;
@@ -260,6 +267,11 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #d8d8d8;
+}
+
+/* Nouvelle règle pour la moitié droite */
+.navbar .navbar-right {
+  background-color: black;
 }
 
 /**
@@ -332,6 +344,7 @@ h6 {
   font-size: 16px;
   position: relative;
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -787,6 +800,10 @@ section .container {
   margin-top: 20px;
 }
 
+.projet3, .peritis-stage {
+  width: 100%; /* Les deux éléments auront la même largeur */
+}
+
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -1061,6 +1078,10 @@ button:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+
+
+/* Ajoutez d'autres styles CSS au besoin */
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -1256,4 +1277,21 @@ button:hover {
  
    
 
+}
+
+
+.bouton-github {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bouton-github:hover {
+  background-color: #555;
 }
